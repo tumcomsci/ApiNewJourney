@@ -33,6 +33,7 @@ namespace ApiNewJourney.BusinessLayer.Service
                         {
                              AccountId = newAccount.AccountId,
                              Balance = 0
+                             
                         });
                     }
                     msg_res.Success = true;
